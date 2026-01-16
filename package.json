@@ -1,0 +1,31 @@
+{
+  "name": "apollo-swarm",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "sdk",
+    "runtime"
+  ],
+  "scripts": {
+    "build:program": "anchor build",
+    "build:sdk": "tsc -p sdk/tsconfig.json",
+    "test": "anchor test",
+    "lint": "tsc --noEmit -p sdk/tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0",
+    "bn.js": "^5.2.1"
+  }
+}

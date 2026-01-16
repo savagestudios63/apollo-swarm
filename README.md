@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ec5856b7-0aab-41fe-8ffd-ed74fb4c7649" width="140" />
+</p>
+
 # Apollo Swarm
 
 Sovereign multi-agent AI coordination on Solana.
